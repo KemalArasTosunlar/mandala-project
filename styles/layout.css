@@ -1,0 +1,34 @@
+/* Layout specific styles */
+.header {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  background-color: #FA812F;
+}
+
+.logo {
+  height: 50px;
+  margin-right: 2rem;
+}
+
+nav {
+  background-color: #FA812F;
+  flex: 1;
+}
+
+main {
+  background-color: #FAB12F;
+  min-height: 70vh;
+}
+
+footer {
+  background-color: #FA4032;
+  padding: 2rem;
+  text-align: center;
+  color: white;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
